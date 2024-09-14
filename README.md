@@ -37,7 +37,7 @@ modelInputs = {
     assets: 2000,
     savings: 1000,
     tax_rate: 0.23,
-    birthday: "2001-09-16 00:00:00",
+    birthday: "2001-09-16",
     current_debt_accounts: {
         1: {
             balance: 5000,
