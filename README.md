@@ -32,43 +32,49 @@ The results above were all created by passing in these variables below.
 
 ```javascript
 modelInputs = {
-    gross_current_income: 40000,
-    gross_current_savings_rate: 0.25,
-    assets: 2000,
-    savings: 1000,
-    tax_rate: 0.23,
-    birthday: "2001-09-16",
-    current_debt_accounts: {
-        1: {
-            balance: 5000,
-            interest_rate: 0.05,
-            minimum_payment: 100,
-            name: "Credit Card"
+    "gross_current_income": 65000,
+    "gross_current_savings_rate": 0.25,
+    "assets": 1000,
+    "savings": 5000,
+    "tax_rate": 0.30,
+    "birthday": "2000-11-29",
+    "current_debt_accounts": [
+        {
+            "balance": 2500,
+            "interest_rate": 0.21,
+            "minimum_payment": 100,
+            "name": "Credit Card"
         },
-        2: {
-            balance: 90000,
-            interest_rate: 0.06,
-            minimum_payment: 200,
-            name: "Student Loan"
+        {
+            "balance": 90000,
+            "interest_rate": 0.05,
+            "minimum_payment": 200,
+            "name": "Student Loan"
         },
-        3: {
-            balance: 10000,
-            interest_rate: 0.04,
-            minimum_payment: 100,
-            name: "Car Loan"
+        {
+            "balance": 10000,
+            "interest_rate": 0.07,
+            "minimum_payment": 100,
+            "name": "Car Loan"
         }
-    },
-    gender: "M",
-    percentage_of_nominal_spending_for_housing: 0.25,
-    initial_retirement_age: 65,
-    non_retirement_goals: {
-        1: {
-            age: 35,
-            amount_in_real_terms: 30000,
-            chance_of_success: 0.75,
-            name: "10k/year for beachhouse"
+    ],
+    "gender": "M",
+    "percentage_of_nominal_spending_for_housing": 0.25,
+    "initial_retirement_age": 65,
+    "non_retirement_goals": [
+        {
+            "age": 27,
+            "amount_in_real_terms": 4000,
+            "chance_of_success": 0.90,
+            "name": "Trip to Europe"
+        },
+        {
+            "age": 35,
+            "amount_in_real_terms": 25000,
+            "chance_of_success": 0.75,
+            "name": "Buy a boat"
         }
-    }
+    ]
 };
 ```
 
